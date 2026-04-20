@@ -1,0 +1,19 @@
+[project]
+name = "corbin"
+version = "0.1.0"
+description = "Graph-aware RAG system for Notion-backed technical knowledge bases."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Suhail" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/clariform/corbin"
+Repository = "https://github.com/clariform/corbin"
+Issues = "https://github.com/clariform/corbin/issues"
+
+[build-system]
+requires = ["uv_build>=0.11.7,<0.12"]
+build-backend = "uv_build"
